@@ -1,4 +1,5 @@
 using BAL;
+using BAL_AbstractFactory;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -38,6 +39,7 @@ namespace Practical_22
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Practical_22", Version = "v1" });
             });
             services.AddScoped<DepartmentFactory>();
+            services.AddScoped<FactoryType>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

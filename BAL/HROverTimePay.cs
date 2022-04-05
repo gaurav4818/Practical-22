@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BAL
 {
-    class HROverTimePay : IOvertimePay
+    public class HROverTimePay : IOvertimePay
     {
       
         public int MyOverTimePay(int hour)

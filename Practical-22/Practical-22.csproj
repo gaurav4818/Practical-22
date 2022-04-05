@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BAL\BAL.csproj" />
+    <ProjectReference Include="..\BAL_AbstractFactory\BAL_AbstractFactory.csproj" />
   </ItemGroup>
 
 </Project>
